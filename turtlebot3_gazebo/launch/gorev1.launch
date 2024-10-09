@@ -1,0 +1,15 @@
+<launch>
+    <!-- TurtleBot3 Gazebo ortamını başlat -->
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_ev.launch" />
+    
+    <!-- Map server node with unique name -->
+    <node name="$(anon map_server)" pkg="map_server" type="map_server" args="$(find turtlebot3_gazebo)/maps/my_map.yaml" output="screen" />
+
+    <!-- TurtleBot3 navigation node -->
+    <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+        <arg name="map_file" value="$(find turtlebot3_gazebo)/maps/my_map.yaml"/>
+    </include>
+
+</launch>
+
+
