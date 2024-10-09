@@ -6,5 +6,5 @@ Bu proje, TurtleBot3 robotunun Gazebo ortamında bir harita üzerinde navigasyon
 Öncelikle, ROS'un temel bileşenlerini başlatmak için aşağıdaki komutu terminalde çalıştırın:
 ```bash
 roscore
-
-## Adım 2: Gazebo Ortamında Haritanın Çalıştırılması
+'''
+asdasd
