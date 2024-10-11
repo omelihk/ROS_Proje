@@ -35,7 +35,9 @@ rosrun turtlebot3_gazebo turtlebot3_gorevler.py
 ### Not:
 Robotun harita üzerinde belirlenen hedefe otonom bir şekilde hareket etmesi için(lokalizasyon, yol planlama, engel, kaçınma hareket kontrolü)gerekli paketin yüklenmesi:
 ```bash
-sudo apt-get install ros-noetic-navigation```
+sudo apt-get install ros-noetic-navigation
+```
 Robotun çevresindeki ortamın haritasını çıkarması aynı zamanda kendi konumunu belirlemesi için gerekli kütüphanenin yüklenmesi:
 ```bash
-sudo apt-get install ros-noetic-slam-gmapping```
+sudo apt-get install ros-noetic-slam-gmapping
+```
