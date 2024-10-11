@@ -37,7 +37,7 @@ Robotun harita üzerinde belirlenen hedefe otonom bir şekilde hareket etmesi i�
 ```bash
 sudo apt-get install ros-noetic-navigation
 ```
-Robotun çevresindeki ortamın haritasını çıkarması aynı zamanda kendi konumunu belirlemesi için gerekli kütüphanenin yüklenmesi:
+Robotun çevresindeki ortamın haritasını çıkarması aynı zamanda kendi konumunu belirlemesi için gerekli paketin yüklenmesi:
 ```bash
 sudo apt-get install ros-noetic-slam-gmapping
 ```
